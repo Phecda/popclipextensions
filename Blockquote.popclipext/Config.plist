@@ -12,7 +12,7 @@
 			<key>Shell Script File</key>
 			<string>blockquote.rb</string>
 			<key>Title</key>
-			<string>Quote</string>
+			<string>引用</string>
 			<key>After</key>
 			<string>paste-result</string>
 			<key>Requirements</key>
@@ -23,17 +23,15 @@
 	</array>
 	<key>Credits</key>
 	<array>
-		<key>Name</key>
 		<string>Brett Terpstra</string>
-		<key>Link</key>
 		<string>http://brettterpstra.com</string>
 	</array>
 	<key>Extension Description</key>
-	<string>Turn indented text into nested Markdown blockquote.</string>
+	<string>将所选文字转为引用格式</string>
 	<key>Extension Identifier</key>
 	<string>com.brettterpstra.popclip.extension.blockquote</string>
 	<key>Extension Name</key>
-	<string>Blockquote</string>
+	<string>引用</string>
 	<key>Version</key>
 	<integer>2</integer>
 </dict>

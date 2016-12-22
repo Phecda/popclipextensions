@@ -6,14 +6,14 @@ when 1048576 # Command (Hash)
 	print input.split("\n").map {|line|
 		"# #{line}"
 	}.join("\n")
-when 524288 # Option (CSS)
-	space = input.match(/^((?:\n\s*)*)\S.*?((?:\n\s*)*)$/m)
-	print "#{space[1]}/* #{input.strip} */#{space[2]}"
+when 524288 # Option (HTML)
+	space = input.match(/^([\s\n]*)\S.*?([\s\n]*)$/m)
+	print "#{space[1]}<!-- #{input.strip} -->#{space[2]}"
 when 1572864 # Option-Command (Slash)
 	print input.split("\n").map {|line|
 		"// #{line}"
 	}.join("\n")
-else # none (HTML)
-	space = input.match(/^([\s\n]*)\S.*?([\s\n]*)$/m)
-	print "#{space[1]}<!-- #{input.strip} -->#{space[2]}"
+else # none (Block)
+	space = input.match(/^((?:\n\s*)*)\S.*?((?:\n\s*)*)$/m)
+	print "#{space[1]}/*\n#{input.strip}\n*/#{space[2]}"
 end

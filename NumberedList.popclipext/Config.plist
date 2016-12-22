@@ -12,7 +12,7 @@
 			<key>Shell Script File</key>
 			<string>numberlist.pl</string>
 			<key>Title</key>
-			<string>Numbered List</string>
+			<string>有序列表</string>
 			<key>After</key>
 			<string>paste-result</string>
 			<key>Requirements</key>
@@ -23,17 +23,15 @@
 	</array>
 	<key>Credits</key>
 	<array>
-		<key>Name</key>
 		<string>Brett Terpstra</string>
-		<key>Link</key>
 		<string>http://brettterpstra.com</string>
 	</array>
 	<key>Extension Description</key>
-	<string>Turn lines into a Markdown numbered list.</string>
+	<string>将所选文字转为有序列表</string>
 	<key>Extension Identifier</key>
 	<string>com.brettterpstra.popclip.extension.numberedlist</string>
 	<key>Extension Name</key>
-	<string>NumberedList</string>
+	<string>有序列表</string>
 	<key>Version</key>
 	<integer>2</integer>
 </dict>

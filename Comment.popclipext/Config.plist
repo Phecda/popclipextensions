@@ -12,7 +12,7 @@
 			<key>Shell Script File</key>
 			<string>comment.rb</string>
 			<key>Title</key>
-			<string>&lt;!--</string>
+			<string>注释</string>
 			<key>After</key>
 			<string>paste-result</string>
 			<key>Requirements</key>
@@ -23,17 +23,15 @@
 	</array>
 	<key>Credits</key>
 	<array>
-		<key>Name</key>
 		<string>Brett Terpstra</string>
-		<key>Link</key>
 		<string>http://brettterpstra.com</string>
 	</array>
 	<key>Extension Description</key>
-	<string>Turn selected text into an HTML/code comment.</string>
+	<string>以块注释的方式注释所选文字</string>
 	<key>Extension Identifier</key>
 	<string>com.brettterpstra.popclip.extension.comment</string>
 	<key>Extension Name</key>
-	<string>Comment</string>
+	<string>注释</string>
 	<key>Version</key>
 	<integer>2</integer>
 </dict>
